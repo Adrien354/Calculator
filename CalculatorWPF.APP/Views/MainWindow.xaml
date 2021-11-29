@@ -55,7 +55,8 @@
         <Button Grid.Row="3" Grid.Column="3" Content="*" Command="{Binding AddOperationCommand}" CommandParameter="*"></Button>
         <Button Grid.Row="4" Grid.Column="3" Content="C" Command="{Binding ClearScreenCommand}"></Button>
         <Button Grid.Row="1" Grid.Column="4" Content="+" Grid.RowSpan="2" Command="{Binding AddOperationCommand}" CommandParameter="+"></Button>
-        <Button Grid.Row="3" Grid.Column="4" Content="=" Grid.RowSpan="2" Command="{Binding GetResultCommand}"></Button>
+        <Button Grid.Row="3" Grid.Column="4" Content="√" Command="{Binding GetSquareRootCommand}"></Button>
+        <Button Grid.Row="4" Grid.Column="4" Content="=" Command="{Binding GetResultCommand}"></Button>
         
     </Grid>
 
